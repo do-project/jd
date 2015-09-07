@@ -1,0 +1,18 @@
+{
+	"RootView":{
+		"views":[
+			{
+				"bgColor":"F8F8F8FF",
+				"id":"do_Label_1",
+				"width":"146",
+				"border":"DBDBDBFF,1,1",
+				"fontSize":"20",
+				"type":"do_Label"
+			}
+		],
+		"width":"146",
+		"type":"do_ALayout",
+		"y":"0",
+		"x":"0"
+	}
+}

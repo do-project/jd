@@ -1,0 +1,22 @@
+{
+	"RootView":{
+		"height":"706",
+		"views":[
+			{
+				"id":"do_GridView_1",
+				"isShowbar":"false",
+				"height":"706",
+				"templates":"source://view/page2/gridview_cell.ui",
+				"vSpacing":"20",
+				"width":"320",
+				"numColumns":"3",
+				"type":"do_GridView",
+				"x":"4"
+			}
+		],
+		"width":"326",
+		"type":"do_ALayout",
+		"y":"0",
+		"x":"0"
+	}
+}

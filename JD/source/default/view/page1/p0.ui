@@ -1,0 +1,17 @@
+{
+	"RootView":{
+		"height":"854",
+		"views":[
+			{
+				"id":"img_banner",
+				"height":"260",
+				"width":"480",
+				"type":"do_ImageView"
+			}
+		],
+		"width":"480",
+		"type":"do_ALayout",
+		"y":"0",
+		"x":"0"
+	}
+}
