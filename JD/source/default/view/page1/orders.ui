@@ -1,10 +1,11 @@
 {
 	"RootView":{
+		"bgColor":"FAFAFAFF",
 		"height":"854",
 		"views":[
 			{
-				"bgColor":"FFFFFFFF",
 				"id":"do_ALayout_1",
+				"bgColor":"FFFFFFFF",
 				"height":"70",
 				"views":[
 					{
@@ -20,7 +21,7 @@
 						"id":"do_Button_2",
 						"height":"40",
 						"width":"40",
-						"bgImage":"source://image/message_title_setting.png",
+						"bgImage":"source://image/jshop_searchbar_search.png",
 						"type":"do_Button",
 						"y":"14",
 						"x":"422"
@@ -31,8 +32,8 @@
 						"height":"46",
 						"width":"162",
 						"textAlign":"center",
-						"type":"do_Label",
 						"fontSize":"23",
+						"type":"do_Label",
 						"y":"12",
 						"x":"142"
 					}
@@ -41,12 +42,26 @@
 				"type":"do_ALayout"
 			},
 			{
-				"id":"do_ListView_1",
-				"bgColor":"FAFAFAFF",
-				"height":"782",
-				"templates":"source://view/page1/message_cell.ui",
+				"id":"do_ScrollView_1",
+				"height":"784",
+				"views":[
+					{
+						"id":"do_ALayout_2",
+						"height":"800",
+						"views":[
+							{
+								"id":"do_ListView_1",
+								"height":"800",
+								"width":"480",
+								"type":"do_ListView"
+							}
+						],
+						"width":"480",
+						"type":"do_ALayout"
+					}
+				],
 				"width":"480",
-				"type":"do_ListView",
+				"type":"do_ScrollView",
 				"y":"70"
 			}
 		],

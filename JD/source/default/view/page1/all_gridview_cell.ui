@@ -1,0 +1,32 @@
+{
+	"RootView":{
+		"height":"155",
+		"views":[
+			{
+				"id":"do_ImageView_1",
+				"scale":"fillxory",
+				"height":"69",
+				"width":"62",
+				"type":"do_ImageView",
+				"y":"20",
+				"x":"24"
+			},
+			{
+				"id":"do_Label_1",
+				"fontColor":"808080FF",
+				"height":"28",
+				"width":"82",
+				"textAlign":"center",
+				"type":"do_Label",
+				"fontSize":"18",
+				"y":"100",
+				"x":"14"
+			}
+		],
+		"width":"114",
+		"border":"DBDBDBFF,1,1",
+		"type":"do_ALayout",
+		"y":"0",
+		"x":"0"
+	}
+}

@@ -185,6 +185,30 @@
 										"type":"do_Label",
 										"y":"192",
 										"x":"356"
+									},
+									{
+										"id":"do_ALayout_22",
+										"height":"95",
+										"width":"84",
+										"type":"do_ALayout",
+										"y":"133",
+										"x":"356"
+									},
+									{
+										"id":"do_ALayout_23",
+										"height":"99",
+										"width":"93",
+										"type":"do_ALayout",
+										"y":"25",
+										"x":"131"
+									},
+									{
+										"id":"do_ALayout_24",
+										"height":"96",
+										"width":"90",
+										"type":"do_ALayout",
+										"y":"131",
+										"x":"132"
 									}
 								],
 								"width":"480",

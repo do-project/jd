@@ -274,8 +274,30 @@ label_open_bc.on("touch", function(data, e) {
 
 //信息
 var label_open_message = ui("do_ALayout_21");
-label_open_bc.on("touch", function(data, e) {
+label_open_message.on("touch", function(data, e) {
 	var random = parseInt(Math.random() * 11);
 	app.openPage({
         source : "source://view/page1/message.ui"});
+});
+
+//百宝箱
+var label_open_all = ui("do_ALayout_22");
+label_open_all.on("touch", function(data, e) {
+	var random = parseInt(Math.random() * 11);
+	app.openPage({
+        source : "source://view/page1/allthethings.ui"});
+});
+
+var label_open_orders = ui("do_ALayout_23");
+label_open_orders.on("touch", function(data, e) {
+	var random = parseInt(Math.random() * 11);
+	app.openPage({
+        source : "source://view/page1/orders.ui"});
+});
+
+var label_open_film = ui("do_ALayout_24");
+label_open_film.on("touch", function(data, e) {
+	var random = parseInt(Math.random() * 11);
+	app.openPage({
+        source : "source://view/page1/film.ui"});
 });

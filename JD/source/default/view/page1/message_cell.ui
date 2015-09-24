@@ -1,6 +1,6 @@
 {
 	"RootView":{
-		"height":"854",
+		"height":"95",
 		"views":[
 			{
 				"id":"do_ALayout_1",
@@ -36,7 +36,7 @@
 						"x":"92"
 					},
 					{
-						"id":"do_ImageView_2",
+						"id":"notify_bg",
 						"height":"25",
 						"width":"25",
 						"type":"do_ImageView",
@@ -44,7 +44,7 @@
 						"x":"67"
 					},
 					{
-						"id":"do_Label_4",
+						"id":"nofity_num",
 						"fontColor":"FFFFFFFF",
 						"height":"16",
 						"width":"16",
