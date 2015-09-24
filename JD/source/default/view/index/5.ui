@@ -1,23 +1,23 @@
 {
 	"RootView":{
 		"bgColor":"FFFFFFFF",
-		"height":"854",
+		"height":"776",
 		"views":[
 			{
-				"id":"do_alayout_5",
 				"bgColor":"00000000",
+				"id":"do_alayout_5",
 				"height":"70",
 				"views":[
 					{
 						"id":"do_label_1",
-						"fontColor":"000000FF",
 						"text":"我的京东",
+						"fontColor":"000000FF",
 						"height":"42",
-						"maxLines":"1",
 						"width":"230",
+						"maxLines":"1",
 						"textAlign":"center",
-						"type":"do_Label",
 						"fontSize":"23",
+						"type":"do_Label",
 						"y":"14",
 						"x":"118"
 					},
@@ -40,8 +40,8 @@
 						"x":"422"
 					},
 					{
-						"bgColor":"C0C0C0FF",
 						"id":"do_ALayout_136",
+						"bgColor":"C0C0C0FF",
 						"height":"1",
 						"width":"480",
 						"type":"do_ALayout",
@@ -54,20 +54,20 @@
 			},
 			{
 				"id":"do_ScrollView_1",
-				"height":"784",
+				"height":"706",
 				"views":[
 					{
 						"id":"do_ALayout_14",
 						"height":"1199",
 						"views":[
 							{
-								"bgColor":"E8E8E8FF",
 								"id":"do_ALayout_15",
-								"height":"1026",
+								"bgColor":"E8E8E8FF",
+								"height":"946",
 								"views":[
 									{
-										"bgColor":"FFFFFFFF",
 										"id":"do_ALayout_16",
+										"bgColor":"FFFFFFFF",
 										"height":"162",
 										"views":[
 											{
@@ -84,20 +84,20 @@
 												"text":"我的订单",
 												"height":"48",
 												"width":"142",
-												"fontSize":"25",
 												"type":"do_Label",
+												"fontSize":"25",
 												"y":"14",
 												"x":"72"
 											},
 											{
 												"id":"do_Label_194",
-												"text":"查看全部订单 >",
 												"fontColor":"C0C0C0FF",
+												"text":"查看全部订单 >",
 												"height":"48",
 												"width":"216",
 												"textAlign":"right",
-												"fontSize":"25",
 												"type":"do_Label",
+												"fontSize":"25",
 												"y":"14",
 												"x":"250"
 											},
@@ -116,8 +116,8 @@
 												"height":"30",
 												"width":"96",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"130",
 												"x":"12"
 											},
@@ -136,8 +136,8 @@
 												"height":"30",
 												"width":"96",
 												"textAlign":"center",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"130",
 												"x":"126"
 											},
@@ -156,8 +156,8 @@
 												"height":"30",
 												"width":"96",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"130",
 												"x":"236"
 											},
@@ -176,14 +176,14 @@
 												"height":"30",
 												"width":"96",
 												"textAlign":"center",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"130",
 												"x":"350"
 											},
 											{
-												"id":"do_ALayout_142",
 												"bgColor":"C0C0C0FF",
+												"id":"do_ALayout_142",
 												"height":"1",
 												"width":"480",
 												"type":"do_ALayout",
@@ -191,18 +191,18 @@
 											}
 										],
 										"width":"480",
-										"border":"DBDBDBFF,1,1",
 										"type":"do_ALayout",
+										"border":"DBDBDBFF,1,1",
 										"y":"30"
 									},
 									{
-										"id":"do_ALayout_137",
 										"bgColor":"FFFFFFFF",
+										"id":"do_ALayout_137",
 										"height":"162",
 										"views":[
 											{
-												"id":"do_ALayout_138",
 												"bgColor":"C0C0C0FF",
+												"id":"do_ALayout_138",
 												"height":"1",
 												"width":"480",
 												"type":"do_ALayout",
@@ -222,20 +222,20 @@
 												"text":"我的订单",
 												"height":"48",
 												"width":"142",
-												"type":"do_Label",
 												"fontSize":"25",
+												"type":"do_Label",
 												"y":"14",
 												"x":"72"
 											},
 											{
 												"id":"do_Label_200",
-												"fontColor":"C0C0C0FF",
 												"text":"小金库、白条等 >",
+												"fontColor":"C0C0C0FF",
 												"height":"48",
 												"width":"216",
 												"textAlign":"right",
-												"type":"do_Label",
 												"fontSize":"25",
+												"type":"do_Label",
 												"y":"14",
 												"x":"250"
 											},
@@ -245,8 +245,8 @@
 												"height":"30",
 												"width":"96",
 												"textAlign":"center",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"130",
 												"x":"12"
 											},
@@ -256,8 +256,8 @@
 												"height":"30",
 												"width":"96",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"130",
 												"x":"126"
 											},
@@ -267,8 +267,8 @@
 												"height":"30",
 												"width":"96",
 												"textAlign":"center",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"130",
 												"x":"236"
 											},
@@ -276,12 +276,12 @@
 												"id":"do_Label_204",
 												"text":"京东卡/E卡",
 												"height":"30",
-												"width":"96",
+												"width":"142",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"130",
-												"x":"350"
+												"x":"334"
 											},
 											{
 												"id":"do_Label_205",
@@ -289,8 +289,8 @@
 												"height":"56",
 												"width":"86",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"74",
 												"x":"16"
 											},
@@ -300,8 +300,8 @@
 												"height":"56",
 												"width":"86",
 												"textAlign":"center",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"74",
 												"x":"132"
 											},
@@ -311,8 +311,8 @@
 												"height":"56",
 												"width":"86",
 												"textAlign":"center",
-												"fontSize":"20",
 												"type":"do_Label",
+												"fontSize":"20",
 												"y":"74",
 												"x":"242"
 											},
@@ -322,25 +322,25 @@
 												"height":"56",
 												"width":"86",
 												"textAlign":"center",
-												"type":"do_Label",
 												"fontSize":"20",
+												"type":"do_Label",
 												"y":"74",
 												"x":"354"
 											}
 										],
 										"width":"480",
-										"border":"DBDBDBFF,1,1",
 										"type":"do_ALayout",
+										"border":"DBDBDBFF,1,1",
 										"y":"220"
 									},
 									{
-										"bgColor":"FFFFFFFF",
 										"id":"do_ALayout_143",
+										"bgColor":"FFFFFFFF",
 										"height":"140",
 										"views":[
 											{
-												"bgColor":"C0C0C0FF",
 												"id":"do_ALayout_144",
+												"bgColor":"C0C0C0FF",
 												"height":"1",
 												"width":"480",
 												"type":"do_ALayout",
@@ -360,20 +360,20 @@
 												"text":"我的服务",
 												"height":"48",
 												"width":"142",
-												"fontSize":"25",
 												"type":"do_Label",
+												"fontSize":"25",
 												"y":"14",
 												"x":"72"
 											},
 											{
 												"id":"do_Label_210",
-												"text":"预约、营业厅等 >",
 												"fontColor":"C0C0C0FF",
+												"text":"预约、营业厅等 >",
 												"height":"48",
 												"width":"216",
 												"textAlign":"right",
-												"fontSize":"25",
 												"type":"do_Label",
+												"fontSize":"25",
 												"y":"14",
 												"x":"250"
 											},
@@ -391,32 +391,32 @@
 												"text":"京东会员",
 												"height":"48",
 												"width":"142",
-												"type":"do_Label",
 												"fontSize":"25",
+												"type":"do_Label",
 												"y":"80",
 												"x":"72"
 											},
 											{
 												"id":"do_Label_220",
-												"fontColor":"C0C0C0FF",
 												"text":"会员俱乐部 >",
+												"fontColor":"C0C0C0FF",
 												"height":"48",
 												"width":"216",
 												"textAlign":"right",
-												"type":"do_Label",
 												"fontSize":"25",
+												"type":"do_Label",
 												"y":"80",
 												"x":"250"
 											}
 										],
 										"width":"480",
-										"border":"DBDBDBFF,1,1",
 										"type":"do_ALayout",
+										"border":"DBDBDBFF,1,1",
 										"y":"412"
 									},
 									{
-										"id":"do_ALayout_145",
 										"bgColor":"FFFFFFFF",
+										"id":"do_ALayout_145",
 										"height":"70",
 										"views":[
 											{
@@ -433,20 +433,20 @@
 												"text":"意见反馈",
 												"height":"48",
 												"width":"142",
-												"type":"do_Label",
 												"fontSize":"25",
+												"type":"do_Label",
 												"y":"14",
 												"x":"72"
 											},
 											{
 												"id":"do_Label_222",
-												"fontColor":"C0C0C0FF",
 												"text":"产品功能建议与反馈 >",
+												"fontColor":"C0C0C0FF",
 												"height":"48",
 												"width":"250",
 												"textAlign":"right",
-												"type":"do_Label",
 												"fontSize":"25",
+												"type":"do_Label",
 												"y":"14",
 												"x":"216"
 											},
@@ -464,32 +464,32 @@
 												"text":"京东会员",
 												"height":"48",
 												"width":"142",
-												"fontSize":"25",
 												"type":"do_Label",
+												"fontSize":"25",
 												"y":"80",
 												"x":"72"
 											},
 											{
 												"id":"do_Label_224",
-												"text":"会员俱乐部 >",
 												"fontColor":"C0C0C0FF",
+												"text":"会员俱乐部 >",
 												"height":"48",
 												"width":"216",
 												"textAlign":"right",
-												"fontSize":"25",
 												"type":"do_Label",
+												"fontSize":"25",
 												"y":"80",
 												"x":"250"
 											}
 										],
 										"width":"480",
-										"border":"DBDBDBFF,1,1",
 										"type":"do_ALayout",
+										"border":"DBDBDBFF,1,1",
 										"y":"592"
 									},
 									{
-										"id":"do_ALayout_147",
 										"bgColor":"FFFFFFFF",
+										"id":"do_ALayout_147",
 										"height":"240",
 										"views":[
 											{
@@ -506,14 +506,15 @@
 												"text":"猜你喜欢",
 												"height":"48",
 												"width":"142",
-												"type":"do_Label",
 												"fontSize":"25",
+												"type":"do_Label",
 												"y":"14",
 												"x":"72"
 											},
 											{
 												"id":"do_ScrollView_2",
 												"height":"168",
+												"direction":"horizontal",
 												"views":[
 													{
 														"id":"do_ALayout_150",
@@ -534,15 +535,14 @@
 														"x":"2"
 													}
 												],
-												"direction":"horizontal",
 												"width":"478",
 												"type":"do_ScrollView",
 												"y":"71"
 											}
 										],
 										"width":"480",
-										"border":"DBDBDBFF,1,1",
 										"type":"do_ALayout",
+										"border":"DBDBDBFF,1,1",
 										"y":"690"
 									}
 								],
@@ -563,35 +563,35 @@
 									},
 									{
 										"id":"do_Label_2",
-										"fontColor":"FFFFFFFF",
 										"text":"hello310",
+										"fontColor":"FFFFFFFF",
 										"height":"44",
 										"width":"170",
-										"fontSize":"25",
 										"type":"do_Label",
+										"fontSize":"25",
 										"y":"18",
 										"x":"126"
 									},
 									{
 										"id":"do_Label_3",
-										"text":"金牌用户",
 										"fontColor":"FFFFFFFF",
+										"text":"金牌用户",
 										"height":"38",
 										"width":"126",
-										"fontSize":"20",
 										"type":"do_Label",
+										"fontSize":"20",
 										"y":"66",
 										"x":"126"
 									},
 									{
 										"id":"do_Label_4",
-										"fontColor":"FFFFFFFF",
 										"text":"账户管理、收货地址>",
+										"fontColor":"FFFFFFFF",
 										"height":"42",
 										"width":"208",
 										"textAlign":"right",
-										"type":"do_Label",
 										"fontSize":"20",
+										"type":"do_Label",
 										"y":"110",
 										"x":"258"
 									},
@@ -618,24 +618,24 @@
 													},
 													{
 														"id":"do_Label_5",
-														"fontColor":"FFFFFFFF",
 														"text":"关注的商品",
+														"fontColor":"FFFFFFFF",
 														"height":"34",
 														"width":"159",
 														"textAlign":"center",
-														"fontSize":"20",
 														"type":"do_Label",
+														"fontSize":"20",
 														"y":"40"
 													},
 													{
 														"id":"do_Label_6",
-														"fontColor":"FFFFFFFF",
 														"text":"13",
+														"fontColor":"FFFFFFFF",
 														"height":"34",
 														"width":"159",
 														"textAlign":"center",
-														"fontSize":"20",
 														"type":"do_Label",
+														"fontSize":"20",
 														"y":"5"
 													}
 												],
@@ -653,24 +653,24 @@
 													},
 													{
 														"id":"do_Label_189",
-														"fontColor":"FFFFFFFF",
 														"text":"关注的店铺",
+														"fontColor":"FFFFFFFF",
 														"height":"34",
 														"width":"159",
 														"textAlign":"center",
-														"fontSize":"20",
 														"type":"do_Label",
+														"fontSize":"20",
 														"y":"40"
 													},
 													{
 														"id":"do_Label_190",
-														"fontColor":"FFFFFFFF",
 														"text":"2",
+														"fontColor":"FFFFFFFF",
 														"height":"34",
 														"width":"159",
 														"textAlign":"center",
-														"fontSize":"20",
 														"type":"do_Label",
+														"fontSize":"20",
 														"y":"5"
 													}
 												],
@@ -689,24 +689,24 @@
 													},
 													{
 														"id":"do_Label_191",
-														"fontColor":"FFFFFFFF",
 														"text":"浏览记录",
+														"fontColor":"FFFFFFFF",
 														"height":"34",
 														"width":"159",
 														"textAlign":"center",
-														"type":"do_Label",
 														"fontSize":"20",
+														"type":"do_Label",
 														"y":"40"
 													},
 													{
 														"id":"do_Label_192",
-														"fontColor":"FFFFFFFF",
 														"text":"0",
+														"fontColor":"FFFFFFFF",
 														"height":"34",
 														"width":"159",
 														"textAlign":"center",
-														"type":"do_Label",
 														"fontSize":"20",
+														"type":"do_Label",
 														"y":"5"
 													}
 												],

@@ -3,6 +3,7 @@ var nf = sm("do_Notification");
 var slideView = ui("slv");
 var slideView_top = ui("slv_top");
 var global = sm("do_Global");
+
 var img1 = ui("img1");
 var img2 = ui("img2");
 var img3 = ui("img3");
@@ -175,4 +176,106 @@ scrollview1.on("pull",function(data){
 		ui("refreshLabel").text="Refresh Count="+refreshCount++;
 		scrollview1.rebound();//刷新后恢复headview状态
 	}
+});
+
+
+
+//倒计时
+var mTimer1 = mm("do_Timer");
+var label_h = ui("label_h");
+var label_m = ui("label_m");
+var label_s = ui("label_s");
+
+
+mTimer1.delay = 0;
+mTimer1.interval = 1000;
+
+var maxVal1 = 545;
+/*
+var h,m,s;*/
+label_h.text=parseInt(maxVal1/3600);
+label_m.text=parseInt((maxVal1-3600*label_h.text)/60);
+label_s.text=parseInt(maxVal1-3600*label_h.text-60*label_m.text);
+if(label_h.text*1<10)
+	label_h.text="0"+label_h.text;
+if(label_m.text*1<10)
+	label_m.text="0"+label_m.text;
+if(label_s.text*1<10)
+	label_s.text="0"+label_s.text;
+
+
+
+if (!mTimer1.isStart()) {
+	mTimer1.start();
+}
+
+
+
+// 订阅(注册)tick事件,每隔固定时间(mTimer.interval)执行一次
+mTimer1.on("tick", function(data, e) {
+
+	var flag_s=true,flag_m=true,flag_h=true;
+	
+	if(label_s.text*1>0)
+	{
+		label_s.text = label_s.text*1-1;
+		flag_s=false;
+	}
+	else if(label_m.text*1>0)
+	{
+		label_m.text = label_m.text*1-1;
+		label_s.text = 59;
+		flag_s=false;
+		flag_m=false;
+	}
+	else if(label_h.text*1>0)
+	{
+		label_h.text = label_h.text*1-1;
+		label_s.text=59;
+		label_m.text = 59;
+		flag_s=false;
+		flag_m=false;
+		flag_h=false;
+	}
+	
+	if(label_h.text*1<10 && flag_h==false)
+		label_h.text="0"+label_h.text;
+	if(label_m.text*1<10 && flag_m==false)
+		label_m.text="0"+label_m.text;
+	if(label_s.text*1<10 && flag_s==false)
+		label_s.text="0"+label_s.text;
+	
+	maxVal1--;
+	
+	if (maxVal1 < 0) {
+		//倒计时结束后
+		mTimer1.stop();
+	}
+	
+});
+
+
+//搜索页面
+var label_open = ui("do_ALayout_6");
+label_open.on("touch", function(data, e) {
+	var random = parseInt(Math.random() * 11);
+	app.openPage({
+        source : "source://view/page1/search.ui"});
+});
+
+
+//二维码页面
+var label_open_bc = ui("do_ALayout_20");
+label_open_bc.on("touch", function(data, e) {
+	var random = parseInt(Math.random() * 11);
+	app.openPage({
+        source : "source://view/page1/barcode.ui"});
+});
+
+//信息
+var label_open_message = ui("do_ALayout_21");
+label_open_bc.on("touch", function(data, e) {
+	var random = parseInt(Math.random() * 11);
+	app.openPage({
+        source : "source://view/page1/message.ui"});
 });

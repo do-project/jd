@@ -6,12 +6,12 @@
 		"views":[
 			{
 				"id":"do_ScrollView_2",
-				"height":"854",
+				"height":"776",
 				"views":[
 					{
 						"bgColor":"E8E8E8FF",
 						"id":"do_ALayout_8",
-						"height":"2000",
+						"height":"1127",
 						"views":[
 							{
 								"bgColor":"FFFFFFFF",
@@ -222,20 +222,65 @@
 										"height":"38",
 										"views":[
 											{
-												"id":"do_Label_17",
-												"text":"01:47:33",
+												"id":"label_m",
 												"height":"38",
-												"width":"85",
+												"width":"-1",
+												"textAlign":"center",
+												"margin":"0,2,0,2",
+												"type":"do_Label",
+												"fontSize":"20",
+												"border":"DBDBDBFF,1,1",
+												"x":"34"
+											},
+											{
+												"id":"label_s",
+												"height":"38",
+												"width":"-1",
+												"textAlign":"center",
+												"margin":"0,2,0,2",
 												"fontSize":"20",
 												"type":"do_Label",
-												"y":"1",
-												"x":"3"
+												"border":"DBDBDBFF,1,1",
+												"x":"65"
+											},
+											{
+												"id":"do_Label_20",
+												"text":":",
+												"fontColor":"DBDBDBFF",
+												"height":"36",
+												"width":"21",
+												"textAlign":"center",
+												"type":"do_Label",
+												"fontSize":"20",
+												"x":"18"
+											},
+											{
+												"id":"do_Label_21",
+												"text":":",
+												"fontColor":"DBDBDBFF",
+												"height":"36",
+												"width":"21",
+												"textAlign":"center",
+												"type":"do_Label",
+												"fontSize":"20",
+												"x":"47"
+											},
+											{
+												"id":"label_h",
+												"height":"38",
+												"width":"-1",
+												"textAlign":"center",
+												"margin":"0,2,0,2",
+												"fontSize":"20",
+												"type":"do_Label",
+												"border":"DBDBDBFF,1,1",
+												"x":"6"
 											}
 										],
 										"width":"90",
 										"type":"do_ALayout",
 										"y":"19",
-										"x":"67"
+										"x":"70"
 									},
 									{
 										"id":"do_ImageView_19",
@@ -366,16 +411,6 @@
 								"type":"do_ALayout",
 								"y":"960",
 								"x":"16"
-							},
-							{
-								"bgColor":"FFFFFFFF",
-								"id":"do_ALayout_16",
-								"height":"78",
-								"views":[],
-								"width":"480",
-								"type":"do_ALayout",
-								"y":"1142",
-								"x":"2"
 							},
 							{
 								"id":"do_ALayout_17",
@@ -515,7 +550,7 @@
 							{
 								"id":"do_Label_2",
 								"fontColor":"C0C0C0FF",
-								"text":"大双曲屏 三星S6 edgr+",
+								"text":"大双曲屏 三星S6 edge+",
 								"height":"39",
 								"width":"248",
 								"fontSize":"20",
@@ -542,6 +577,17 @@
 						"x":"420"
 					},
 					{
+						"id":"do_Label_6",
+						"text":"扫啊扫",
+						"fontColor":"FFFFFFFF",
+						"height":"20",
+						"width":"70",
+						"textAlign":"center",
+						"type":"do_Label",
+						"y":"43",
+						"x":"3"
+					},
+					{
 						"id":"do_ImageView_9",
 						"height":"30",
 						"source":"source://image/topbar_search.png",
@@ -551,15 +597,20 @@
 						"x":"24"
 					},
 					{
-						"id":"do_Label_6",
-						"text":"扫啊扫",
-						"fontColor":"FFFFFFFF",
-						"height":"20",
-						"width":"48",
-						"textAlign":"center",
-						"type":"do_Label",
-						"y":"43",
+						"id":"do_ALayout_20",
+						"height":"52",
+						"width":"52",
+						"type":"do_ALayout",
+						"y":"10",
 						"x":"14"
+					},
+					{
+						"id":"do_ALayout_21",
+						"height":"52",
+						"width":"52",
+						"type":"do_ALayout",
+						"y":"12",
+						"x":"418"
 					}
 				],
 				"width":"480",

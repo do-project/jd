@@ -25,42 +25,21 @@ listdata.addData([ { text : "	推荐分类",index:"0"},
                    { text : "	家居建材",index:"9"},
                    ]);
 listview.refreshItems();
+
+var last_index=0;//上一条选中的数据
+
+//选中效果
 listview.on("touch", function(index){
-   // listview2.set({index: index});
+	//更新数据
+	listdata.updateOne({index:index, data:{"bgcolor":"FFFFFFFF",border:"00000000,0,0",fcolor:"FF0000FF"}});
+	if(index!=last_index)
+	{
+		listdata.updateOne({index:last_index, data:{"bgcolor":"F8F8F8FF",border:"DBDBDBFF,1,1",fcolor:"000000FF"}});
+		last_index=index;
+	}
+	listview.refreshItems();
     listview2.index=index;
 });
-
-
-
-//listview.on("pull", function(data) {
-    /**
-     * @此事件将会多次执行.
-     * @state == 0 : pull动作开始
-     * @state == 1 : pull动作持续中
-     * @state == 2 : pull动作结束
-     */
-/*    if (data.state !== 2) return;
-    this.rebound();
-});
-*/
-/** ***************************************************************************************** */
-
-    /**
-     * @listdata.addOne(data, index); 向listdata增加一条数据
-     * @刷新页面(refreshItems);此处不能调用refreshData;详见API refreshData / refreshItems 的区别.
-     * @refreshData 是一个UI的基类方法; 能够刷新控件本身;即刷新listview控件本身属性.
-     * @refreshItems 是listview 的实例方法; 用于刷新 listview 的数据项.
-     */
-//    listdata.addOne({ NAME : "ADD", LOGO : "source://image/add.png" }, 0);
-//    listview.refreshItems();
-
-    /**
-     * @listdata.removeRange(fromIndex, toIndex);
-     * listdata没有提供 removeOne(index) 方法; removeRange(index,index) 可删除指定项.
-     */
-//    listdata.removeRange(0, 0);
-//    listview.refreshItems();
-
 
 
 
@@ -87,10 +66,10 @@ listdata2.addData([
 listview2.refreshItems();
 
 
-
-/*
-listview.on("touch", function(index) {
-    nf.alert(listdata.getOne(index), "touch");
+//搜索页面
+var label_open = ui("do_ALayout_7");
+label_open.on("touch", function(data, e) {
+	var random = parseInt(Math.random() * 11);
+	app.openPage({
+      source : "source://view/page1/search.ui"});
 });
-*/
-

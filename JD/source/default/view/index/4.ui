@@ -1,29 +1,29 @@
 {
 	"RootView":{
 		"bgColor":"FFFFFFFF",
-		"height":"854",
+		"height":"776",
 		"views":[
 			{
-				"id":"do_ALayout_6",
 				"bgColor":"00000000",
+				"id":"do_ALayout_6",
 				"height":"70",
 				"views":[
 					{
 						"id":"do_Label_2",
-						"fontColor":"000000FF",
 						"text":"购物车",
+						"fontColor":"000000FF",
 						"height":"42",
-						"maxLines":"1",
 						"width":"230",
+						"maxLines":"1",
 						"textAlign":"center",
-						"type":"do_Label",
 						"fontSize":"23",
+						"type":"do_Label",
 						"y":"14",
 						"x":"118"
 					},
 					{
-						"bgColor":"C0C0C0FF",
 						"id":"do_ALayout_11",
+						"bgColor":"C0C0C0FF",
 						"height":"1",
 						"width":"480",
 						"type":"do_ALayout",
@@ -36,16 +36,16 @@
 			},
 			{
 				"id":"do_ScrollView_1",
-				"height":"784",
+				"height":"706",
 				"views":[
 					{
-						"id":"do_ALayout_7",
 						"bgColor":"E8E8E8FF",
-						"height":"932",
+						"id":"do_ALayout_7",
+						"height":"888",
 						"views":[
 							{
-								"id":"do_ALayout_8",
 								"bgColor":"FFFFFFFF",
+								"id":"do_ALayout_8",
 								"height":"480",
 								"views":[
 									{
@@ -59,55 +59,55 @@
 									},
 									{
 										"id":"do_Label_3",
-										"text":"购物车肚子空空",
 										"fontColor":"C0C0C0FF",
+										"text":"购物车肚子空空",
 										"height":"88",
 										"width":"288",
 										"textAlign":"center",
-										"type":"do_Label",
 										"fontSize":"30",
+										"type":"do_Label",
 										"y":"248",
 										"x":"100"
 									},
 									{
-										"id":"do_Button_1",
 										"bgColor":"FFFFFFFF",
-										"text":"逛逛秒杀",
+										"id":"do_Button_1",
 										"fontColor":"C0C0C0FF",
+										"text":"逛逛秒杀",
 										"height":"54",
 										"width":"126",
-										"type":"do_Button",
-										"border":"DBDBDBFF,1,1",
 										"fontSize":"25",
+										"border":"DBDBDBFF,1,1",
+										"type":"do_Button",
 										"y":"362",
 										"x":"72"
 									},
 									{
-										"bgColor":"FFFFFFFF",
 										"id":"do_Button_2",
-										"fontColor":"C0C0C0FF",
+										"bgColor":"FFFFFFFF",
 										"text":"逛逛秒杀",
+										"fontColor":"C0C0C0FF",
 										"height":"54",
 										"width":"126",
-										"fontSize":"25",
-										"border":"DBDBDBFF,1,1",
 										"type":"do_Button",
+										"border":"DBDBDBFF,1,1",
+										"fontSize":"25",
 										"y":"362",
 										"x":"282"
 									}
 								],
 								"width":"480",
-								"border":"DBDBDBFF,1,1",
-								"type":"do_ALayout"
+								"type":"do_ALayout",
+								"border":"DBDBDBFF,1,1"
 							},
 							{
-								"id":"img3",
 								"bgColor":"FFFFFFFF",
+								"id":"img3",
 								"height":"354",
 								"views":[
 									{
-										"id":"do_ALayout_10",
 										"bgColor":"C0C0C0FF",
+										"id":"do_ALayout_10",
 										"height":"1",
 										"width":"480",
 										"type":"do_ALayout",
@@ -118,8 +118,8 @@
 										"text":"你可能想要",
 										"height":"48",
 										"width":"220",
-										"type":"do_Label",
 										"fontSize":"27",
+										"type":"do_Label",
 										"y":"18",
 										"x":"18"
 									},
@@ -161,17 +161,9 @@
 									}
 								],
 								"width":"480",
+								"type":"do_ALayout",
 								"border":"DBDBDBFF,1,1",
-								"type":"do_ALayout",
 								"y":"510"
-							},
-							{
-								"bgColor":"FFFFFFFF",
-								"id":"do_ALayout_12",
-								"height":"76",
-								"width":"480",
-								"type":"do_ALayout",
-								"y":"866"
 							}
 						],
 						"width":"480",

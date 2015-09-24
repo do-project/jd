@@ -2,12 +2,13 @@
 	"RootView":{
 		"views":[
 			{
-				"bgColor":"F8F8F8FF",
 				"id":"do_Label_1",
+				"bgColor":"F8F8F8FF",
+				"fontColor":"000000FF",
 				"width":"146",
-				"border":"DBDBDBFF,1,1",
+				"type":"do_Label",
 				"fontSize":"20",
-				"type":"do_Label"
+				"border":"DBDBDBFF,1,1"
 			}
 		],
 		"width":"146",

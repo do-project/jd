@@ -76,7 +76,7 @@
 			{
 				"id":"do_ListView_1",
 				"isShowbar":"false",
-				"height":"784",
+				"height":"706",
 				"templates":"source://view/page2/listview_cell1.ui",
 				"width":"146",
 				"type":"do_ListView",
@@ -94,7 +94,7 @@
 			},
 			{
 				"id":"do_SlideView_1",
-				"height":"784",
+				"height":"706",
 				"templates":"source://view/page2/items1.ui,source://view/page2/items2.ui",
 				"width":"326",
 				"type":"do_SlideView",
